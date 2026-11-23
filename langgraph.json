@@ -1,0 +1,9 @@
+{
+    "dependencies": ["."],
+    "graphs": {
+        "create_analysts": "langgraph_research_agent.creating_analysts:graph",
+        "answering_questions": "langgraph_research_agent.answering_questions:question_answer_graph",
+        "research_agent": "langgraph_research_agent.agent:graph"
+    },
+    "env": ".env"
+}
